@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <result>
+	
 	<totalVisits>2</totalVisits>
 	<totalVisitDuration>361</totalVisitDuration>
 	<totalActions>2</totalActions>
-	<totalEvents>0</totalEvents>
 	<totalOutlinks>1</totalOutlinks>
 	<totalDownloads>0</totalDownloads>
 	<totalSearches>0</totalSearches>
@@ -11,47 +11,17 @@
 	<totalUniquePageViews>1</totalUniquePageViews>
 	<totalRevisitedPages>0</totalRevisitedPages>
 	<totalPageViewsWithTiming>0</totalPageViewsWithTiming>
+	<searches>
+	</searches>
 	<totalGoalConversions>1</totalGoalConversions>
 	<totalConversionsByGoal>
 		<row idgoal="1">1</row>
 	</totalConversionsByGoal>
+	<totalEvents>0</totalEvents>
 	<hasLatLong>0</hasLatLong>
 	<totalRevenueByGoal>
 		<row idgoal="1">1000</row>
 	</totalRevenueByGoal>
-	<searches>
-	</searches>
-	<continents>
-		<row>
-			<continent>eur</continent>
-			<nb_visits>2</nb_visits>
-			<prettyName>Europe</prettyName>
-		</row>
-	</continents>
-	<countries>
-		<row>
-			<country>fr</country>
-			<nb_visits>2</nb_visits>
-			<flag>plugins/Morpheus/icons/dist/flags/fr.png</flag>
-			<prettyName>France</prettyName>
-		</row>
-	</countries>
-	<totalVisitDurationPretty>6 min 1s</totalVisitDurationPretty>
-	<firstVisit>
-		
-		
-		
-		<referrerType>campaign</referrerType>
-		<referralSummary>Campaign: campaign name - yeah! - campaign keyword - right...</referralSummary>
-	</firstVisit>
-	<lastVisit>
-		
-		
-		
-		<referrerType>campaign</referrerType>
-		<referralSummary>Campaign: campaign name - yeah! - campaign keyword - right...</referralSummary>
-	</lastVisit>
-	<visitsAggregated>2</visitsAggregated>
 	<lastVisits>
 		<row>
 			<idSite>1</idSite>
@@ -307,6 +277,28 @@
 			</pluginsIcons>
 		</row>
 	</lastVisits>
+	
+	
+	<totalVisitDurationPretty>6 min 1s</totalVisitDurationPretty>
+	<userId>0</userId>
+	<firstVisit>
+		
+		
+		
+		<referrerType>campaign</referrerType>
+		<referralSummary>Campaign: campaign name - yeah! - campaign keyword - right...</referralSummary>
+	</firstVisit>
+	<lastVisit>
+		
+		
+		
+		<referrerType>campaign</referrerType>
+		<referralSummary>Campaign: campaign name - yeah! - campaign keyword - right...</referralSummary>
+	</lastVisit>
+	<visitsAggregated>2</visitsAggregated>
+	<visitedPages>
+		<row key="http://example.org/homepage">1</row>
+	</visitedPages>
 	<devices>
 		<Desktop>
 			<count>2</count>
@@ -316,11 +308,19 @@
 			</devices>
 		</Desktop>
 	</devices>
-	<visitedPages>
-		<row key="http://example.org/homepage">1</row>
-	</visitedPages>
-	<userId>0</userId>
-	
-	
-	
+	<continents>
+		<row>
+			<continent>eur</continent>
+			<nb_visits>2</nb_visits>
+			<prettyName>Europe</prettyName>
+		</row>
+	</continents>
+	<countries>
+		<row>
+			<country>fr</country>
+			<nb_visits>2</nb_visits>
+			<flag>plugins/Morpheus/icons/dist/flags/fr.png</flag>
+			<prettyName>France</prettyName>
+		</row>
+	</countries>
 </result>

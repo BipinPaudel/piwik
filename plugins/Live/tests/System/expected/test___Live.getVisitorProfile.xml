@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <result>
+	
 	<totalVisits>31</totalVisits>
 	<totalVisitDuration>0</totalVisitDuration>
 	<totalActions>31</totalActions>
-	<totalEvents>0</totalEvents>
 	<totalOutlinks>0</totalOutlinks>
 	<totalDownloads>0</totalDownloads>
 	<totalSearches>0</totalSearches>
@@ -11,54 +11,13 @@
 	<totalUniquePageViews>4</totalUniquePageViews>
 	<totalRevisitedPages>4</totalRevisitedPages>
 	<totalPageViewsWithTiming>0</totalPageViewsWithTiming>
+	<searches>
+	</searches>
 	<totalGoalConversions>0</totalGoalConversions>
 	<totalConversionsByGoal>
 	</totalConversionsByGoal>
+	<totalEvents>0</totalEvents>
 	<hasLatLong>0</hasLatLong>
-	<searches>
-	</searches>
-	<continents>
-		<row>
-			<continent>eur</continent>
-			<nb_visits>1</nb_visits>
-			<prettyName>Europe</prettyName>
-		</row>
-		<row>
-			<continent>unk</continent>
-			<nb_visits>30</nb_visits>
-			<prettyName>Unknown</prettyName>
-		</row>
-	</continents>
-	<countries>
-		<row>
-			<country>fr</country>
-			<nb_visits>1</nb_visits>
-			<flag>plugins/Morpheus/icons/dist/flags/fr.png</flag>
-			<prettyName>France</prettyName>
-		</row>
-		<row>
-			<country>xx</country>
-			<nb_visits>30</nb_visits>
-			<flag>plugins/Morpheus/icons/dist/flags/xx.png</flag>
-			<prettyName>Unknown</prettyName>
-		</row>
-	</countries>
-	<totalVisitDurationPretty>0s</totalVisitDurationPretty>
-	<firstVisit>
-		
-		
-		
-		<referrerType>direct</referrerType>
-		<referralSummary>Direct Entry</referralSummary>
-	</firstVisit>
-	<lastVisit>
-		
-		
-		
-		<referrerType>direct</referrerType>
-		<referralSummary>Direct Entry</referralSummary>
-	</lastVisit>
-	<visitsAggregated>31</visitsAggregated>
 	<lastVisits>
 		<row>
 			<idSite>1</idSite>
@@ -1191,6 +1150,31 @@
 			</pluginsIcons>
 		</row>
 	</lastVisits>
+	
+	
+	<totalVisitDurationPretty>0s</totalVisitDurationPretty>
+	<userId>0</userId>
+	<firstVisit>
+		
+		
+		
+		<referrerType>direct</referrerType>
+		<referralSummary>Direct Entry</referralSummary>
+	</firstVisit>
+	<lastVisit>
+		
+		
+		
+		<referrerType>direct</referrerType>
+		<referralSummary>Direct Entry</referralSummary>
+	</lastVisit>
+	<visitsAggregated>10</visitsAggregated>
+	<visitedPages>
+		<row key="http://example.org/my/dir/page0">8</row>
+		<row key="http://example.org/my/dir/page1">8</row>
+		<row key="http://example.org/my/dir/page2">8</row>
+		<row key="http://example.org/my/dir/page3">7</row>
+	</visitedPages>
 	<devices>
 		<Unknown>
 			<count>30</count>
@@ -1207,14 +1191,30 @@
 			</devices>
 		</Desktop>
 	</devices>
-	<visitedPages>
-		<row key="http://example.org/my/dir/page0">8</row>
-		<row key="http://example.org/my/dir/page1">8</row>
-		<row key="http://example.org/my/dir/page2">8</row>
-		<row key="http://example.org/my/dir/page3">7</row>
-	</visitedPages>
-	<userId>0</userId>
-	
-	
-	
+	<continents>
+		<row>
+			<continent>eur</continent>
+			<nb_visits>1</nb_visits>
+			<prettyName>Europe</prettyName>
+		</row>
+		<row>
+			<continent>unk</continent>
+			<nb_visits>30</nb_visits>
+			<prettyName>Unknown</prettyName>
+		</row>
+	</continents>
+	<countries>
+		<row>
+			<country>fr</country>
+			<nb_visits>1</nb_visits>
+			<flag>plugins/Morpheus/icons/dist/flags/fr.png</flag>
+			<prettyName>France</prettyName>
+		</row>
+		<row>
+			<country>xx</country>
+			<nb_visits>30</nb_visits>
+			<flag>plugins/Morpheus/icons/dist/flags/xx.png</flag>
+			<prettyName>Unknown</prettyName>
+		</row>
+	</countries>
 </result>
